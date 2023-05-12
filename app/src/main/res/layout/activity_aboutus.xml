@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UserLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FIXIFY"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="-80sp"
+        android:layout_marginBottom="15sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/aboutustext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="This Application is made by Gaurav, Sahil, Rohit, Deepak as a Final Year of Engineering Project.
+Hope you like this App...\nIf Yes please rate us!"/>
+
+
+    <Button
+        android:id="@+id/btn_rating"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:text="Rate Us!" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SPlist">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+</ScrollView>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/userList"
+    android:layout_width="410dp"
+    android:layout_height="421dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+
+    app:layout_constraintStart_toStartOf="parent"
+
+    />
+
+
+<Button
+    android:id="@+id/price"
+    android:layout_width="84dp"
+    android:layout_height="45dp"
+    android:text="Price"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.40"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.250" />
+
+<Button
+    android:id="@+id/rating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rating"
+    tools:layout_editor_absoluteX="212dp"
+    tools:layout_editor_absoluteY="14dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.90"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.250"/>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sort By : "
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="28dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.01"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.250"
+    android:textSize="25dp"/>
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Service  : "
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="18dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.01"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.050"
+    android:textSize="25dp"/>
+
+<Button
+    android:id="@+id/Cleaning"
+    android:layout_width="84dp"
+    android:layout_height="65dp"
+    android:text="Cleaning"
+    android:textSize="9dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.010"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.130" />
+<Button
+    android:id="@+id/Plumbing"
+    android:layout_width="84dp"
+    android:layout_height="65dp"
+    android:text="Plumbing"
+    android:textSize="9dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.290"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.130" />
+<Button
+    android:id="@+id/Electrician"
+    android:layout_width="100dp"
+    android:layout_height="65dp"
+    android:text="Electrician"
+    android:textSize="9dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.590"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.130" />
+<Button
+    android:id="@+id/Gardning"
+    android:layout_width="90dp"
+    android:layout_height="65dp"
+    android:text="Gardning"
+    android:textSize="9dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.910"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.130" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
